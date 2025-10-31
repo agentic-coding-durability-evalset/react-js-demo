@@ -1,3 +1,5 @@
-# 新需求
+# New Requirement
 
-帮我实现一个颜色转换的组件，能将RGB颜色转为HEX格式，组件页面有一个按钮，点击出现一个弹窗，有三个输入框，分别输入R、G、B的值，点击转换按钮，在弹窗内可以出现对应的以#为开头的HEX的值。
+Help me implement a color conversion component that can convert RGB colors to HEX format. The component page has a button that, when clicked, displays a dialog with three input boxes for entering R, G, and B values respectively. Click the conversion button, and the corresponding HEX value starting with # will appear in the dialog.
+
+
