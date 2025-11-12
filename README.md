@@ -1,103 +1,103 @@
 # React JavaScript Demo
 
-一个基于 [Create React App](https://create-react-app.dev/) 的 React JavaScript 应用示例项目。使用纯 JavaScript（无 TypeScript）构建 React 单页应用。
+A React JavaScript application demo project based on [Create React App](https://create-react-app.dev/). Build React single-page applications using pure JavaScript (without TypeScript).
 
-## 技术栈
+## Tech Stack
 
 - **React**: 19.2.0
 - **React Scripts**: 5.0.1
-- **Testing Library**: 完整的测试工具链
-- **Web Vitals**: 性能监控
+- **Testing Library**: Complete testing toolchain
+- **Web Vitals**: Performance monitoring
 
-## 项目结构
+## Project Structure
 
 ```
 react-js-demo/
 ├── src/
-│   ├── App.js             # 主应用组件
-│   ├── index.js           # 应用入口
-│   ├── index.css          # 全局样式
+│   ├── App.js             # Main application component
+│   ├── index.js           # Application entry point
+│   ├── index.css          # Global styles
 │   └── ...
-├── public/                # 静态资源
+├── public/                # Static assets
 │   ├── index.html
 │   └── ...
-├── package.json           # 项目依赖配置
+├── package.json           # Project dependency configuration
 └── README.md
 ```
 
-## 功能特性
+## Features
 
-- React 19 支持
-- 纯 JavaScript（无 TypeScript）
-- 完整的测试工具链
-- Web Vitals 性能监控
-- 热重载开发体验
-- 生产就绪的构建配置
+- React 19 support
+- Pure JavaScript (no TypeScript)
+- Complete testing toolchain
+- Web Vitals performance monitoring
+- Hot reload development experience
+- Production-ready build configuration
 
-## 快速开始
+## Quick Start
 
-### 前置要求
+### Prerequisites
 
-- Node.js 14 或更高版本
-- npm 或 yarn
+- Node.js 14 or higher
+- npm or yarn
 
-### 安装和运行
+### Installation and Running
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
-# 或
+# Or
 yarn install
 
-# 运行开发服务器
+# Run development server
 npm start
-# 或
+# Or
 yarn start
 ```
 
-应用将在 `http://localhost:3000` 启动。
+The application will start at `http://localhost:3000`.
 
-### 构建和测试
+### Build and Test
 
 ```bash
-# 构建生产版本
+# Build production version
 npm run build
 
-# 运行测试
+# Run tests
 npm test
 
-# 弹出配置（不推荐，除非必要）
+# Eject configuration (not recommended unless necessary)
 npm run eject
 ```
 
-## 项目特点
+## Project Features
 
 ### Create React App
 
-使用 Create React App (CRA) 作为基础：
-- 零配置设置
-- 开箱即用的工具链
-- Webpack 配置已优化
-- 生产就绪的构建
+Uses Create React App (CRA) as foundation:
+- Zero-configuration setup
+- Out-of-the-box toolchain
+- Optimized Webpack configuration
+- Production-ready builds
 
-### 纯 JavaScript
+### Pure JavaScript
 
-项目使用纯 JavaScript，无需类型定义：
-- 更快的开发速度
-- 更少的配置
-- 适合快速原型开发
-- 易于学习和理解
+Project uses pure JavaScript without type definitions:
+- Faster development speed
+- Less configuration
+- Suitable for rapid prototyping
+- Easy to learn and understand
 
 ### React 19
 
-使用最新的 React 19 特性：
-- 改进的并发渲染
-- 新的 Hooks
-- 更好的性能
+Uses the latest React 19 features:
+- Improved concurrent rendering
+- New Hooks
+- Better performance
 
-## 参考资源
+## References
 
-- [Create React App 文档](https://create-react-app.dev/)
-- [React 文档](https://react.dev/)
+- [Create React App Documentation](https://create-react-app.dev/)
+- [React Documentation](https://react.dev/)
 - [React Testing Library](https://testing-library.com/react)
 - [Web Vitals](https://web.dev/vitals/)
