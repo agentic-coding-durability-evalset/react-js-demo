@@ -17,7 +17,7 @@ react-js-demo/
 │   ├── App.js             # 主应用组件
 │   ├── index.js           # 应用入口
 │   ├── index.css          # 全局样式
-│   └── components/        # React 组件
+│   └── ...
 ├── public/                # 静态资源
 │   ├── index.html
 │   └── ...
@@ -98,102 +98,6 @@ npm run eject
 - 改进的并发渲染
 - 新的 Hooks
 - 更好的性能
-
-## 开发
-
-### 热重载
-
-CRA 提供快速刷新功能，修改代码会自动更新。
-
-### 环境变量
-
-支持环境变量配置：
-
-```bash
-# .env
-REACT_APP_API_URL=https://api.example.com
-```
-
-### 代理配置
-
-可以在 `package.json` 中配置代理：
-
-```json
-{
-  "proxy": "http://localhost:4000"
-}
-```
-
-## 测试
-
-### 运行测试
-
-```bash
-npm test
-```
-
-使用 Jest 和 React Testing Library：
-- 单元测试
-- 集成测试
-- 快照测试
-- 覆盖率报告
-
-### 测试示例
-
-```javascript
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
-```
-
-## 构建和部署
-
-### 生产构建
-
-```bash
-npm run build
-```
-
-构建输出在 `build` 目录，包含：
-- 优化的 JavaScript 和 CSS
-- 代码分割
-- 资源优化
-- 源映射
-
-### 部署选项
-
-- **Netlify**: 自动部署
-- **Vercel**: 零配置部署
-- **GitHub Pages**: 静态托管
-- **AWS S3 + CloudFront**: 企业级部署
-
-## 性能优化
-
-### Web Vitals
-
-项目集成了 Web Vitals 监控：
-- Core Web Vitals 指标
-- 性能报告
-- 用户体验指标
-
-### 代码分割
-
-CRA 自动进行代码分割：
-- 路由级别的分割
-- 动态导入支持
-- 懒加载组件
-
-## 与 TypeScript 版本的区别
-
-- **无类型检查**: JavaScript 版本没有编译时类型检查
-- **更快的开发**: 无需等待 TypeScript 编译
-- **更灵活**: 可以更快速地迭代和实验
-- **适合原型**: 适合快速原型开发和学习
 
 ## 参考资源
 
